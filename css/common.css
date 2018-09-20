@@ -1,0 +1,44 @@
+  /*通用样式*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	line-height: 24px;
+	font-family: 'robotolight';
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+body,div,ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,input{
+	margin:0;
+	padding:0;
+	
+}
+img{
+	border:0 none ;
+}
+input{
+	border:0 none;
+}
+.clearfix:after{
+	content:".";
+	display: block;
+	height:0;
+	line-height: 0;
+	visibility: hidden;
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+i{
+	font-style: normal;
+}
+:before{
+	box-sizing: border-box;
+}
